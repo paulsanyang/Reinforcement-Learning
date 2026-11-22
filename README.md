@@ -19,7 +19,7 @@ This project investigates the exploration–exploitation trade-off through the \
 **Key topics:**
 - Implementation of the \(\epsilon\)-greedy action-selection algorithm.
 - Simulation of 10-armed bandits across 2,000 independent runs.
-- Comparison of exploration probabilities \(\epsilon = 0,\ 0.01,\ 0.1\).
+- Comparison of exploration probabilities ε = 0, 0.01, 0.1.
 - Analysis of average rewards and optimal action selection.
 - Simulation of a three-state Markov chain and computation of its stationary distribution.
 
