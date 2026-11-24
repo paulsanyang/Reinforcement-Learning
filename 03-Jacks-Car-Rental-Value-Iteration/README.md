@@ -30,30 +30,31 @@ returns, transfer costs, and inventory constraints.
 Rental requests and returns are modelled as independent
 Poisson random variables.
 
+
 ## Mathematical Framework
 
 The problem is solved using the Bellman optimality equation:
 
-$$
-V^*(s)=\max_{a\in\mathcal{A}(s)}
+```math
+V^{*}(s)=\max_{a\in\mathcal{A}(s)}
 \left[
-r(s,a)+\gamma\sum_{s'}P(s'|s,a)V^*(s')
+r(s,a)+\gamma\sum_{s'}P(s'\mid s,a)V^{*}(s')
 \right].
-$$
+```
 
 The independence of the two rental locations allows the
 expected continuation values to be computed efficiently
 through matrix multiplication:
 
-$$
-H=P_A V P_B^\top.
-$$
+```math
+H=P_A V P_B^{\top}.
+```
 
 Convergence is monitored using the supremum norm:
 
-$$
-\delta_k=\|V_{k+1}-V_k\|_\infty.
-$$
+```math
+\delta_k=\lVert V_{k+1}-V_k\rVert_{\infty}.
+```
 
 Detailed mathematical derivations are provided in the notebook.
 
