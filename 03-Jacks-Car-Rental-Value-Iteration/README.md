@@ -108,6 +108,7 @@ jupyter notebook
 ```
 
 Open `jacks_car_rental_value_iteration.ipynb` and run all cells.
+[Open](jacks_car_rental_value_iteration.ipynb)
 
 The environment parameters and convergence tolerance can be
 modified to investigate alternative problem configurations.
