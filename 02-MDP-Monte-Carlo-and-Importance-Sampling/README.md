@@ -15,3 +15,17 @@ The project is implemented in Python using Jupyter Notebook, combining mathemati
 ## View the Project
 
 [Open the Jupyter Notebook](mdp_monte_carlo_importance_sampling.ipynb)
+
+
+## Reference
+
+Sutton, R. S., and Barto, A. G. (2018).
+*Reinforcement Learning: An Introduction*, 2nd Edition.
+MIT Press. Chapter 4, Dynamic Programming.
+
+## Author
+
+Paul Sanyang
+
+[Academic Website](https://paulsanyang.github.io) |
+[GitHub](https://github.com/paulsanyang)
